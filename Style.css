@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+Footer{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li{
+    padding: 0px 15px;
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+    font-size: 25px;
+    color: #B48C5B;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 15px;
+}
